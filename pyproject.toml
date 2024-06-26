@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-bringing-old-photos-back-to-life"
+description = "Enhance old or low-quality images in ComfyUI. Optional features include automatic scratch removal and face enhancement. Based on Microsoft's Bringing-Old-Photos-Back-to-Life. Requires installing models, so see instructions here: https://github.com/cdb-boop/ComfyUI-Bringing-Old-Photos-Back-to-Life."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["cmake", "dlib==19.24.1", "easydict", "matplotlib", "opencv-python", "scikit-image", "scipy"]
+
+[project.urls]
+Repository = "https://github.com/cdb-boop/ComfyUI-Bringing-Old-Photos-Back-to-Life"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Bringing-Old-Photos-Back-to-Life"
+Icon = ""
